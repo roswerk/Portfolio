@@ -6,3 +6,7 @@
   background-color: #000000;
 }
 
+.container{
+  padding-top: 1rem;
+  padding-inline: 2rem;
+}
