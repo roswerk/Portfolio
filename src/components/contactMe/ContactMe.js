@@ -13,6 +13,7 @@ function ContactMe() {
 
         <Form
           className="formContent"
+          target="_blank"
           action="https://formsubmit.co/0bce47247151822ce9e9df09a6952496"
           method="POST"
         >
@@ -20,13 +21,12 @@ function ContactMe() {
             <Form.Group
               className="mb-3"
               controlId="formBasicEmail"
-              target="_blank"
               className="emailAddress"
             >
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="Enter Email Address"
+                placeholder="Email Address"
                 name="email"
                 required
               />
@@ -46,23 +46,29 @@ function ContactMe() {
                 required
               />
             </Form.Group>
-          </div>
 
-          <div className="textbox">
-            <InputGroup>
-              <InputGroup.Text>Message</InputGroup.Text>
-              <FormControl
-                as="textarea"
-                aria-label="With textarea"
-                className="messageholder"
-                placeholder="Your Message"
+            <Form.Group
+              className="mb-3"
+              controlId="formBasicMessage"
+              className="message"
+            >
+              <Form.Label>Message</Form.Label>
+              <Form.Control
+                type="text"
                 name="message"
+                class="form-control"
+                placeholder="Message"
                 required
               />
-            </InputGroup>
+            </Form.Group>
 
             <div className="contactBtn">
-              <Button variant="primary" type="submit" className="contactButton">
+              <Button
+                variant="dark"
+                type="submit"
+                className="contactButton"
+                target="_blank"
+              >
                 Submit
               </Button>
             </div>
