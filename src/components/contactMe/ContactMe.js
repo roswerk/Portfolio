@@ -11,15 +11,25 @@ function ContactMe() {
           <h2 className="contactTitle">Contact Me</h2>
         </div>
 
-        <Form className="formContent">
+        <Form
+          className="formContent"
+          action="https://formsubmit.co/maxrowk@gmail.com"
+          method="POST"
+        >
           <div className="emailAndPass">
             <Form.Group
               className="mb-3"
               controlId="formBasicEmail"
+              target="_blank"
               className="emailAddress"
             >
               <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Control
+                type="email"
+                placeholder="Enter Email Address"
+                name="email"
+                required
+              />
             </Form.Group>
 
             <Form.Group
@@ -28,7 +38,13 @@ function ContactMe() {
               className="password"
             >
               <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Name" />
+              <Form.Control
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Full Name"
+                required
+              />
             </Form.Group>
           </div>
 
@@ -39,6 +55,9 @@ function ContactMe() {
                 as="textarea"
                 aria-label="With textarea"
                 className="messageholder"
+                placeholder="Your Message"
+                name="message"
+                required
               />
             </InputGroup>
 
