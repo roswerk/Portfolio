@@ -15,16 +15,14 @@
 color: black;
 }
 
-.g-4{
-  padding-left: 7rem;
-  padding-right: 7rem;
+.g-4, .gy-4{
+  padding: 2rem;
 }
 
 .cardImg{
 width: auto;
 height: 15rem;
 display: flex;
-/* align-content: center; */
 }
 
 .cardAppImg{
@@ -35,15 +33,26 @@ display: flex;
 }
 
 .card{
-    height: 30rem;
   width: auto;
 }
 
 .cardButtons{
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+padding: 1rem;
+  
 }
 
 .cardsButtons{
-  margin-left: 20px;
-  margin-right: 20px;
+margin: 0.5rem;
+color: #FFFF;
+border-color: #FFFF;
+}
+
+#projects{
+padding: 0 10% 0 10%;
+}
+.projectsCard{
+  height: 75vh;
+  background-color: rgba(70, 70, 70, 0.6);
+  color: #FFFF;
 }
