@@ -8,8 +8,8 @@ function ProjectsView() {
   return (
     <div className="backgroundProjects" id="projects">
       <h2 className="projectsTitle">Projects</h2>
-      <Row xs={1} md={2} className="g-4">
-        <Col>
+      <Row xs={1} md={2}>
+        <Col className="projectCol">
           <Card className="projectsCard">
             <Card.Img
               variant="top"
@@ -38,7 +38,7 @@ function ProjectsView() {
           </Card>
         </Col>
 
-        <Col>
+        <Col className="projectCol">
           <Card className="projectsCard">
             <Card.Img
               variant="top"
@@ -74,7 +74,7 @@ function ProjectsView() {
           </Card>
         </Col>
 
-        <Col>
+        <Col className="projectCol">
           <Card className="projectsCard">
             <Card.Img variant="top" src={AngularImg} className="cardImg" />
             <Card.Body>
@@ -106,7 +106,7 @@ function ProjectsView() {
           </Card>
         </Col>
 
-        <Col>
+        <Col className="projectCol">
           <Card className="projectsCard">
             <Card.Img variant="top" src={App} className="cardAppImg" />
             <Card.Body>
@@ -132,7 +132,7 @@ function ProjectsView() {
           </Card>
         </Col>
 
-        <Col>
+        <Col className="projectCol">
           <Card className="projectsCard">
             <Card.Img
               variant="top"
@@ -169,7 +169,7 @@ function ProjectsView() {
           </Card>
         </Col>
 
-        <Col>
+        <Col className="projectCol">
           <Card className="projectsCard">
             <Card.Img
               variant="top"
