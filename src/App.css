@@ -5,6 +5,7 @@
   background-attachment: fixed;
   background-size: cover;
   color: white;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -41,3 +42,8 @@
     transform: rotate(360deg);
   }
 }
+
+.reactRouterStyles{
+  display: none;
+}
+
