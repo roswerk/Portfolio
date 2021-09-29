@@ -3,7 +3,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <div>
+    <div className="footerSegment">
       <div className="footerSM">
         <a
           href="https://www.linkedin.com/in/maximilian-rosales-923565120/"

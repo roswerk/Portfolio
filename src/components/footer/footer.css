@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-size: cover; */
   color: white;
+  justify-content: flex-end;
 }
 
 .footerSM{
@@ -17,4 +18,8 @@
 
 .footerSMIcons{
 margin-left: 10px;
+}
+
+.footerSegment{
+  /* margin-top: 10%; */
 }

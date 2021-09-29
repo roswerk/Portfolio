@@ -10,7 +10,7 @@
   color: white;
   object-fit: cover;
   padding: 0 10% 0 10%;
-    
+  margin-bottom: 10vh;
 }
 
 .photoDiv{
@@ -28,7 +28,10 @@
   flex-direction: column;
   /* flex-grow: 4; */
   justify-content: center;
+}
 
+.badgie{
+  padding: 1%;
 }
 
 /* .frontEnd{
@@ -60,7 +63,49 @@ width: 100%;
 justify-content: center;
 }
 
-.frontEndSkillsCard{
+.SkillsCard{
   background-color: rgba(70, 70, 70, 0.6);
   margin: 2vh;
+  padding: 0 15% 0 15%;
 }
+
+
+
+
+@media screen and (max-width: 900px) {
+.SkillsCard{
+  padding: 0;
+}
+
+.infoSkills{
+margin-top: 25%;
+}
+
+.skillsMainContainer{
+}
+
+}
+
+
+
+/* 
+.skills-percentage{
+  align-self: flex-start;
+  margin-bottom: 3rem;
+}
+
+.skills-bar{
+  background-color: #ffa994;
+  height: 5px;
+  border-radius: .25rem;
+}
+
+.skills-percentage .skills-percentage {
+  display: block;
+  background-color: #ff582e;
+  
+}
+
+.skills-90 {
+  width: 90%;
+} */
