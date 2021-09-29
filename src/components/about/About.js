@@ -1,36 +1,50 @@
 import React from "react";
 import "./about.css";
 import { Button } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import maxBnW from "../../img/maxBnW.png";
+import CV from "../../resources/Rosales-Maximilian-Resume.pdf";
 
 function About() {
   return (
-    <div className="AboutMeContainer" id="about">
-      <div className="aboutMeCard">
-        <div>
-          <img src={maxBnW} className="aboutMeImg"></img>
+    <div className="mainContainer" id="about">
+      <div className="background">
+        <div className="photoDiv">
+          <img
+            src="https://ca.slack-edge.com/T03DJ0G01-U01NEKBSPGX-3789eeff614a-512"
+            alt="Maximilians Photo"
+            className="photo"
+          ></img>
         </div>
 
-        <Card className="softSkills">
-          <Card.Body>
-            <p className="aboutMeText">
-              I’m Max, a JavaScript Full-Stack Web Developer with a background
-              in Start-Up Project Development. I have experience working in
-              Social Media Marketing and the IoT industry, where I specialized
-              in developing companies from the idea to the realization. In my
-              role, I was in charge of finding investors, structuring the
-              company values and culture, hiring teams, building sales pitches
-              and client acquisition processes, and quality assurance of
-              services. In recent years, I have shifted my focus more on the
-              Technological industry in order to help build products that could
-              impact hundreds of thousands of people globally. Merging both my
-              tact dealing with people and problems and my technical knowledge,
-              I want to work with passionate teams building the next
-              Websites/Apps of the future.
-            </p>
-          </Card.Body>
-        </Card>
+        <div className="info">
+          <h2>Hello, my name is Maximilian Rosales</h2>
+          <p>I'm a Full-Stack Web Developer</p>
+
+          <div className="profileButtons">
+            <Button
+              variant="outline-light"
+              className="infoButton"
+              href="https://github.com/roswerk"
+              target="_blank"
+            >
+              Go to GitHub
+            </Button>
+            <Button
+              variant="outline-light"
+              className="infoButton"
+              href="#projects"
+            >
+              Go to Projects
+            </Button>
+            <Button
+              variant="outline-light"
+              className="infoButton"
+              href={CV}
+              target="_blank"
+            >
+              Go to CV
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   );
