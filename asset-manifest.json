@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c1a6b85.chunk.css",
-    "main.js": "/static/js/main.5ff3601e.chunk.js",
-    "main.js.map": "/static/js/main.5ff3601e.chunk.js.map",
+    "main.css": "/static/css/main.83dc24b2.chunk.css",
+    "main.js": "/static/js/main.89d47b8e.chunk.js",
+    "main.js.map": "/static/js/main.89d47b8e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4f531955.js",
     "runtime-main.js.map": "/static/js/runtime-main.4f531955.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
@@ -12,11 +12,12 @@
     "static/js/3.e07b2ec1.chunk.js.map": "/static/js/3.e07b2ec1.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.8c1a6b85.chunk.css.map": "/static/css/main.8c1a6b85.chunk.css.map",
+    "static/css/main.83dc24b2.chunk.css.map": "/static/css/main.83dc24b2.chunk.css.map",
     "static/js/2.39a542b5.chunk.js.LICENSE.txt": "/static/js/2.39a542b5.chunk.js.LICENSE.txt",
     "static/media/Rosales-Maximilian-Resume.700a2cf3.pdf": "/static/media/Rosales-Maximilian-Resume.700a2cf3.pdf",
     "static/media/angular.b6a7eb5e.png": "/static/media/angular.b6a7eb5e.png",
     "static/media/app.d5f8441d.jpeg": "/static/media/app.d5f8441d.jpeg",
+    "static/media/dev.6a62445b.svg": "/static/media/dev.6a62445b.svg",
     "static/media/maxBnW.1f408d17.png": "/static/media/maxBnW.1f408d17.png",
     "static/media/me.ae9282c8.png": "/static/media/me.ae9282c8.png",
     "static/media/whatsapp.c75084c4.png": "/static/media/whatsapp.c75084c4.png"
@@ -25,7 +26,7 @@
     "static/js/runtime-main.4f531955.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.39a542b5.chunk.js",
-    "static/css/main.8c1a6b85.chunk.css",
-    "static/js/main.5ff3601e.chunk.js"
+    "static/css/main.83dc24b2.chunk.css",
+    "static/js/main.89d47b8e.chunk.js"
   ]
 }
